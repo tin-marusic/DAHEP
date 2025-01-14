@@ -31,4 +31,4 @@ plt.savefig("Problem_1")
 
 # Prikaz rezultata
 print(f"Procena mase: m = {m_hat:.2f} kg")
-print(f"Nesigurnost mase: ±{m_uncertainty:.2f} kg")
+print(f"Nesigurnost mase: ±{m_uncertainty:.6f} kg")

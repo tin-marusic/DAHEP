@@ -40,7 +40,8 @@ plt.show()
 
 # Prikaz rezultata
 print(f"Procena mase: m = {m_hat:.2f} kg")
-print(f"Nesigurnost mase: ±{m_uncertainty:.2f} kg")
+print(f"Nesigurnost mase: ±{m_uncertainty:.6f} kg")
 
 # Dodatno objašnjenje:
-# Procjena parametra m dolazi iz minimuma $\chi^2$ funkcije. Nesigurnost mase ($\sigma_m$) određena je intervalom gdje $\chi^2$ raste za 1 od minimalne vrijednosti. Ova metoda omogućava direktno poređenje s prethodnim rezultatima dobivenim pomoću fitovanja."
+# Procjena parametra m dolazi iz minimuma $\chi^2$ funkcije. Nesigurnost mase ($\sigma_m$) određena je intervalom
+# gdje $\chi^2$ raste za 1 od minimalne vrijednosti. Ova metoda omogućava direktno poređenje s prethodnim rezultatima dobivenim pomoću fitovanja."
